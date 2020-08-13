@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+.tittle {
+  margin: 0;
+  font-size: 30px;
+}
+
+.adjustHeader {
+  background-color: #46ffbc;
+}
