@@ -5,7 +5,7 @@ import "./estiloHeader.css";
 function header() {
   return (
     <Navbar className="adjustHeader">
-      <h1 className="tittle">SomaOrtopedia</h1>
+      <NavbarBrand className="tittleHeader">SomaOrtopedia</NavbarBrand>
     </Navbar>
   );
 }
