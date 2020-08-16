@@ -1,11 +1,11 @@
 import React from "react";
 import { Navbar, NavbarBrand } from "reactstrap";
-import "./estiloHeader.css";
+import "./Estilo.css";
 
 function header() {
   return (
     <Navbar className="adjustHeader">
-      <NavbarBrand className="tittleHeader">SomaOrtopedia</NavbarBrand>
+      <h1>SomaOrtopédia</h1>
     </Navbar>
   );
 }

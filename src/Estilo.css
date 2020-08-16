@@ -1,0 +1,21 @@
+.colorPage {
+  background-color: #edfdf9;
+}
+
+.adjustHeader {
+  background-color: #46ffbc;
+  height: 8vh;
+}
+
+.tituloCard {
+  font-size: 30px;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.adjustFooter {
+  height: 10vh;
+  background-color: #46ffbc;
+}
