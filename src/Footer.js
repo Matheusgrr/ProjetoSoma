@@ -5,7 +5,7 @@ import "./Estilo.css";
 function footer() {
   return (
     <Navbar className="adjustFooter">
-      <NavbarBrand>Empresa</NavbarBrand>
+      <NavbarBrand href="/">Empresa</NavbarBrand>
       <NavbarBrand>Informações</NavbarBrand>
       <NavbarBrand>Contato </NavbarBrand>
     </Navbar>
