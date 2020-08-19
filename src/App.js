@@ -5,7 +5,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
-import "./Estilo.css";
+import MedicoPag from "./Medicos";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Container fluid={true} className="colorPage">
         <Route path="/" exact component={Home} />
         <Route path="/gallery" component={Gallery} />
+        <Route path="/medicos" component={MedicoPag} />
       </Container>
       <Footer />
     </Router>

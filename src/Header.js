@@ -4,8 +4,8 @@ import "./Estilo.css";
 
 function header() {
   return (
-    <Navbar className="adjustHeader">
-      <h1>SomaOrtopédia</h1>
+    <Navbar className="adjustHeaderFooter">
+      <h1 className="tittle">SomaOrtopédia</h1>
     </Navbar>
   );
 }
