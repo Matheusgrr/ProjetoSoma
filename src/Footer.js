@@ -5,9 +5,11 @@ import "./Estilo.css";
 function footer() {
   return (
     <Navbar className="adjustHeaderFooter">
-      <NavbarBrand href="/">Empresa</NavbarBrand>
-      <NavbarBrand>Informações</NavbarBrand>
-      <NavbarBrand>Contato </NavbarBrand>
+      <NavbarBrand className="linkFooter" href="/">
+        Empresa
+      </NavbarBrand>
+      <NavbarBrand className="linkFooter">Informações</NavbarBrand>
+      <NavbarBrand className="linkFooter">Contato </NavbarBrand>
     </Navbar>
   );
 }

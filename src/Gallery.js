@@ -30,7 +30,7 @@ function gallery() {
         </Media>
 
         <div className=" marginTB">
-          <img src={okiko} className="imgTopGallery" alt="" />
+          <img src={okiko} className="imgSize" alt="" />
         </div>
       </div>
     </Row>

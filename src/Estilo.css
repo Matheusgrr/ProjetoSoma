@@ -7,8 +7,11 @@
 }
 
 .adjustHeaderFooter {
-  background-color: #28a477;
+  background-color: #63efcb;
   height: 10vh;
+}
+.adjustHeaderFooter:hover {
+  text-decoration: none;
 }
 
 .tituloCard {
@@ -18,13 +21,19 @@
   text-align: center;
   color: #094931;
 }
+.cardEstilo:hover {
+  text-decoration: none;
+}
 
 .border {
   border: 1px solid black;
 }
-.imgTopGallery {
+.imgSize {
   width: 100%;
 }
 .marginTB {
   margin: 20px 0;
+}
+.linkFooter {
+  color: #094931;
 }
